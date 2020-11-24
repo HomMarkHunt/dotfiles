@@ -1,7 +1,13 @@
-
 # tap repositories and their packages
-
+tap argon/mas
+tap homebrew/bundle
+tap homebrew/cask
+tap homebrew/cask-versions
 tap homebrew/core
+tap rcmdnk/file
+tap versent/taps
+
+brew brew-file
 brew fish
 brew gettext
 brew git
@@ -11,26 +17,28 @@ brew nvm
 brew openssl
 brew pcre2
 brew telnet
-brew typesafe-activator
-
-tap homebrew/cask-versions
-cask java8
-
-tap homebrew/cask
-cask clipy
-cask franz
-cask sequel-pro
-cask visual-studio-code
-
-tap argon/mas
-
-tap rcmdnk/file
-brew brew-file
+brew awscli
+brew jq
+brew nodenv
+brew terraform-docs
+brew terraform_landscape
+brew tfenv
+brew tree
+brew yarn
+brew argon/mas/mas
+brew rcmdnk/file/brew-file
+brew versent/taps/saml2aws
 
 # Other Cask applications
 cask docker
 cask intellij-idea
 cask sourcetree
+cask iterm2
+cask clipy
+cask visual-studio-code
+cask karabiner-elements
+cask kindle
+cask java8
 
 # App Store applications
 appstore 682658836 GarageBand (10.2.0)
